@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Celular",
+		"description": "Samsung Galaxy S23+",
+		"price": 150000,
+		"thumbnail": "Sin imagen",
+		"code": "abc123",
+		"stock": 220,
+		"id": 1
+	},
+	{
+		"title": "Notebook",
+		"description": "Dell G15",
+		"price": 300000,
+		"thumbnail": "Sin imagen",
+		"code": "abc124",
+		"stock": 71,
+		"id": 2
+	},
+	{
+		"title": "Celular",
+		"description": "iPhone 14",
+		"price": 400000,
+		"thumbnail": "Sin imagen",
+		"code": "abd123",
+		"stock": 43,
+		"id": 3
+	}
+]
