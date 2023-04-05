@@ -25,5 +25,68 @@
 		"code": "abd123",
 		"stock": 43,
 		"id": 3
+	},
+	{
+		"title": "Celular",
+		"description": "Samsung Galaxy S21+",
+		"price": 150000,
+		"thumbnail": "Sin imagen",
+		"code": "athyc123",
+		"stock": 220,
+		"id": 4
+	},
+	{
+		"title": "Notebook",
+		"description": "Lenovo Thinkpad",
+		"price": 300000,
+		"thumbnail": "Sin imagen",
+		"code": "qwerabc124",
+		"stock": 71,
+		"id": 5
+	},
+	{
+		"title": "Celular",
+		"description": "iPhone 11 pro",
+		"price": 400000,
+		"thumbnail": "Sin imagen",
+		"code": "abd12355555",
+		"stock": 43,
+		"id": 6
+	},
+	{
+		"title": "Celular",
+		"description": "Samsung Galaxy S22",
+		"price": 150000,
+		"thumbnail": "Sin imagen",
+		"code": "rrrabc123",
+		"stock": 220,
+		"id": 7
+	},
+	{
+		"title": "Notebook",
+		"description": "Lenovo Ideapad",
+		"price": 300000,
+		"thumbnail": "Sin imagen",
+		"code": "abcasdf124",
+		"stock": 71,
+		"id": 8
+	},
+	{
+		"title": "Celular",
+		"description": "iPhone 12",
+		"price": 400000,
+		"thumbnail": "Sin imagen",
+		"code": "abd123",
+		"stock": 43,
+		"id": 9
+	},
+	{
+		"title": "Celular",
+		"description": "iPhone 13",
+		"price": 400000,
+		"thumbnail": "Sin imagen",
+		"code": "abe123",
+		"stock": 43,
+		"id": 10
 	}
 ]
