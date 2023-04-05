@@ -20,7 +20,8 @@ app.get('/products', async (req,res)=>{
     res.send(products);
 });
 
-// app.get('/:idProducto', (req,res)=>{
-//     const idProducto = req.params.idProducto;
-//     res.send(idProducto);
-// });
+app.get('/products/:pid', async (req,res)=>{
+    const idProduct = req.params.pid;
+    const product = await productManager.getProductById(idProduct);
+    res.send(product);
+});
