@@ -16,8 +16,15 @@ app.get('/', async (req,res)=>{
 });
 
 app.get('/products', async (req,res)=>{
+    const limit = req.query.limit;
     const products = await productManager.getProducts();
-    res.send(products);
+    if(!limit){
+        res.send(products);
+    }else{
+        const productsLimit = products.filter(product => product.id <= limit);
+        res.send(productsLimit);
+    }
+    
 });
 
 app.get('/products/:pid', async (req,res)=>{
